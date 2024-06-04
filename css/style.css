@@ -1,0 +1,48 @@
+header{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); 
+    height: 20vh;
+    width: 100vw;
+}
+body{
+    background: linear-gradient(90deg, rgba(9,172,230,1) 0%, rgba(91,194,224,1) 42%, rgba(83,170,219,1) 74%, rgba(43,188,218,1) 100%);
+ 
+}
+#pAgua{
+    padding-top: 3vh;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    color: #fafafa;
+    text-align: center;
+}
+.section {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+}
+
+.section-image {
+    width: 50%;
+}
+
+.section-text {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section-content {
+        flex-direction: column;
+    }
+
+    .section-image,
+    .section-text {
+        width: 100%;
+    }
+}
+
+
